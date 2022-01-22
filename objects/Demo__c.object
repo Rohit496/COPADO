@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
-	
         <actionName>Accept</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -160,7 +159,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Demos</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
@@ -172,6 +171,14 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
-	
-	
+
+
+    <fields>
+        <fullName>IsChecked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IsChecked?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
 </CustomObject>
