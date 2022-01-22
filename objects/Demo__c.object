@@ -173,12 +173,5 @@
     </fields>
 
 
-    <fields>
-        <fullName>IsChecked__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>IsChecked?</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
+    
 </CustomObject>
