@@ -171,4 +171,13 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
+	<fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>
