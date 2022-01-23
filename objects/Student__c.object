@@ -184,6 +184,7 @@
         <fullName>FirstName__c</fullName>
         <externalId>false</externalId>
         <label>First Name</label>
+		<length>10</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
